@@ -5833,7 +5833,7 @@
                     N =
                         b.indexOf(a) >= 0
                             ? "  *** Please add the license, contact info@" + a + " ***"
-                            : "  *** This player is powered by pisignage.com ***";
+                            : "";
                 }),
                 (b.clearDisplayOnscreenMessage = function () {
                     clearTimeout(ec),
